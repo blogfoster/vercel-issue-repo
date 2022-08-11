@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": "last 2 versions" }],
+    ["@babel/preset-react"]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "react-hot-loader/babel"
+  ],
+  "sourceType": "unambiguous"
+}

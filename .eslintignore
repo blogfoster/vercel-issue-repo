@@ -1,0 +1,8 @@
+.cache
+.vscode
+eslintwebpack
+node_modules
+server
+design
+public
+tmp

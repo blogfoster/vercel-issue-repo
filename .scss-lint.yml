@@ -1,0 +1,53 @@
+linters:
+
+  BorderZero:
+    enabled: true
+
+  ColorKeyword:
+    enabled: true
+
+  ColorVariable:
+    enabled: false
+
+  Comment:
+    enabled: true
+
+  DeclarationOrder:
+    enabled: true
+
+  ExtendDirective:
+    enabled: false
+
+  HexLength:
+    enabled: true
+    style: long # or 'short'
+
+  HexNotation:
+    enabled: true
+    style: lowercase # or 'uppercase'
+
+  NameFormat:
+    enabled: true
+    convention: hyphenated_lowercase # or 'BEM', or a regex pattern
+
+  PropertySortOrder:
+    enabled: true
+    order: recess # or 'concentric', or 'smacss'
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 3
+
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_lowercase
+    class_convention: ^(?!js-).*
+    class_convention_explanation: should not be written in the form js-*
+
+  SingleLinePerProperty:
+    enabled: true
+    allow_single_line_rule_sets: true
+
+  StringQuotes:
+    enabled: true
+    style: single_quotes # or double_quotes

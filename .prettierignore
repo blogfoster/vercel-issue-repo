@@ -1,0 +1,11 @@
+package.json
+package-lock.json
+vercel.json
+.cache
+.vscode
+build
+cert
+docker
+node_modules
+public
+i18n

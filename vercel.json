@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "regions": ["bru1"],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
+}
